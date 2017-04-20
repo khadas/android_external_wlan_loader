@@ -1,4 +1,4 @@
-#GB86302I_NVRAM_V1.1_09242012
+#GB86302I_NVRAM_V1.4_06022014
 #Sample variables file for BCM94330 SD FC AGB board
 manfid=0x2d0
 prodid=0x0547
@@ -26,37 +26,37 @@ rssismf5g=0x4
 rssismc5g=0x3
 rssisav5g=0x7
 #PA parameters for lower a-band
-pa1lob0=4708
+pa1lob0=4848
 pa1lob1=-596
 pa1lob2=-180
 #PA parameters for midband
-pa1b0=4802
+pa1b0=5042
 pa1b1=-603
 pa1b2=-172
 #PA parameters for high band
-pa1hib0=5006
+pa1hib0=5266
 pa1hib1=-609
 pa1hib2=-173
 rxpo5g=0
-maxp2ga0=74
+maxp2ga0=72
 maxp5ga0=66
 maxp5gla0=66
 maxp5gha0=66
 # 2.4G Tx Power offsets
 cck2gpo=0x4444
 ofdm2gpo=0x66666666
-mcs2gpo0=0x8888
-mcs2gpo1=0x8888
+mcs2gpo0=0x9999
+mcs2gpo1=0x9999
 # 5G Tx Power offsets
 ofdm5gpo=0x44444444
 ofdm5glpo=0x44444444
 ofdm5ghpo=0x44444444
 mcs5gpo0=0x6666
 mcs5gpo1=0x6666
-mcs5glpo0=0x2222
-mcs5glpo1=0x2222
-mcs5ghpo0=0x1111
-mcs5ghpo1=0x1111
+mcs5glpo0=0x6666
+mcs5glpo1=0x6666
+mcs5ghpo0=0x6666
+mcs5ghpo1=0x6666
 sromrev=3
 il0macaddr=00:90:4c:c5:12:38
 wl0id=0x431b
@@ -77,5 +77,7 @@ noise_cal_ref_2g=53
 noise_cal_po_2g=0
 noise_cal_ref_5g=52
 noise_cal_po_5g=5,0,0
+edonthd=-78
+edoffthd=-84
 # 4330 OOB parameter: High level trigger
 muxenab=0x10
